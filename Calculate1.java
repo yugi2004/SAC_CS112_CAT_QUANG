@@ -38,3 +38,5 @@ public class Calculate1
 	
 	}
 }
+
+// Good job, but I do recommend better variable names.  a,b,x are not easy to follow.  num1, num2 and operator will be
