@@ -5,26 +5,26 @@ public class Calculate1
 	public static void main(String[] args)
 	{
 	     // TODO code application logic here
-        int a;
-		int b;
-		String x="";
+        	int num1;
+		int num2;
+		String operator="";
         String quit="N";
 	
 	Scanner input= new Scanner(System.in);
         do{
             System.out.print("Enter number 1:");
-		a=input.nextInt();
+		num1=input.nextInt();
 		System.out.print("Enter number 2:");
-		b=input.nextInt();
+		num2=input.nextInt();
 		System.out.print("please enter \"+\" or \"-\" or \"*\" or \"/\" :");
-		x=input.next();// nhap chuoi
-                        if(x.equals("+"))
-                    System.out.printf("Result: %d + %d = %d",a,b,a+b);
-                else if (x.equals("-"))
-                    System.out.printf("Result: %d - %d = %d",a,b,a-b);
-                     else if(x.equals("*"))
-                         System.out.printf("Result: %d * %d = %d",a,b,a*b);
-                        else if(x.equals("/"))
+		operator=input.next();// nhap chuoi
+                        if(operator.equals("+"))
+                    System.out.printf("Result: %d + %d = %d",num1,num2,num1+num2);
+                else if (operator.equals("-"))
+                    System.out.printf("Result: %d - %d = %d",num1,num2,num1-num2);
+                     else if(operator.equals("*"))
+                         System.out.printf("Result: %d * %d = %d",num1,num2,num1*num2);
+                        else if(operator.equals("/"))
                             System.out.printf("Result : %d / %d = %d", a,b,a/b);
                 
                 System.out.println("Do you want quit? Y or N");
