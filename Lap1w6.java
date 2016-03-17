@@ -13,9 +13,9 @@ public class Lap1w6
 		System.out.printf("Your number is : %d\n ",personNum);
 		if(computerNum==personNum)
 			System.out.println("your number is correct");
-		else if(computerNum>personNum)
+		if(computerNum>personNum)
 			System.out.println("your number is too small");
-			else 
+		if(computerNum<personNum)
 				System.out.println("your number is too big");
 		
 	}
