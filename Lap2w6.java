@@ -11,12 +11,15 @@ public class Lap2w6
 		System.out.println("Please enter your number:");
 		personNum=input.nextInt();
 		System.out.printf("Your number is : %d\n ",personNum);
+		System.out.printf("Computer number is : %d\n ",computerNum);
 		if(computerNum==personNum)
 			System.out.println("your number is correct");
-		else if(computerNum>personNum)
-			System.out.println("your number is too small");
+		else 
+		{	
+			if(computerNum>personNum)
+				System.out.println("your number is too small");
 			else
 				System.out.println("your number is too big");
-		
+		}
 	}
 }
