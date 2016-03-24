@@ -8,7 +8,7 @@ public class Lap2W7 {
 		String personPlay;//  input person play
 	    String computerPlay=null;    
 	    String message;
-	    int computerInt; // theo doi bien random cua computer
+	    int computerInt;
 	    
 	     
 	    // Scanner scan = new Scanner(System.in);
