@@ -24,7 +24,7 @@ public class Lap1W7 {
 		}
 		else
 			{	
-				String messageS = (computerNum>personNum) ? "your number is too big" : "your number is too small";
+				String messageS = (computerNum<personNum) ? "your number is too big" : "your number is too small";
 				JOptionPane.showMessageDialog(null,messageS);
 			}
  
