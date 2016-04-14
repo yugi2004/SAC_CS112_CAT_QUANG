@@ -9,12 +9,19 @@ public class RandomNumber1 {
 		num= 1 + (int) (Math.random()*10);
 		return num;
 	}
-	//lap 2 with you choice random number max
+	//lap 2 with you choice random number max 
 	public int GetANumber(int high)
 	{
 		//Returns a number between 0 and High
 
 		num= (int) (Math.random()*high);
+		return num;
+	}
+	// Lap 3 you choice number random form x to y
+	public int GetANumber(int lo, int hi)
+	{
+		
+		 num=(int)(Math.floor(Math.random() * ((hi-lo)+1) + lo));
 		return num;
 	}
 }
