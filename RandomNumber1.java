@@ -9,7 +9,7 @@ public class RandomNumber1 {
 		num= 1 + (int) (Math.random()*10);
 		return num;
 	}
-	//lap 2 with you choi random number max 
+	//lap 2 with you choice random number max
 	public int GetANumber(int high)
 	{
 		//Returns a number between 0 and High
