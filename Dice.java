@@ -95,3 +95,5 @@ public class Dice {
 		return count;
 	}
 }
+
+// Good job!
