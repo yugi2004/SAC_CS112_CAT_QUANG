@@ -19,12 +19,13 @@ public class Lap2Week10 {
 		System.out.print("Please enter a number high random: ");
 		highNumber= input.nextInt();
 		randomNumber.SetHighNumber(highNumber);
+		
 		System.out.printf("Please enter a number between %d and %d: ",lowNumber,highNumber);
 		numberGuess=input.nextInt();
 		myRandomNum=randomNumber.GetANumber();
 		
 		if (numberGuess==myRandomNum)
-		System.out.printf("Congrats, you guessed it. The correct number is %f\n",numberGuess);
+		System.out.printf("Congrats, you guessed it. The correct number is %d\n",numberGuess);
 		else if (numberGuess > myRandomNum)
 		System.out.printf("Your number is too large. You number is %d , computer number is %d ",numberGuess,myRandomNum);
 		else
