@@ -5,7 +5,7 @@ public class GuessGame2 {
 public static void main(String[] args) {
 
 Scanner input = new Scanner (System.in);
-double randomNum = 1+(Math.random()*10);
+double randomNum ;
 double number1;
 RandomNumber2 randomNumber= new RandomNumber2();
 
