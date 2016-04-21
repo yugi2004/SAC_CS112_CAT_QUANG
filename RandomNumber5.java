@@ -14,7 +14,7 @@ public class RandomNumber5 {
 		this.hi=hi;
 		this.lo=lo;
 	}
-	public void GetANumber(int lo, int hi)
+	private void GetANumber(int lo, int hi)
 	{
 		num=(int)(Math.floor(Math.random() * ((hi-lo)+1) + lo));
 	}
