@@ -36,6 +36,7 @@ public class Dice1 {
 	}
 	public String toString()
 	{
+		// Good!
 		return String.format("%s,\nplayed with %d dices.\nTotal points: %d", playerName, diceCount, point);
 	}
 }
