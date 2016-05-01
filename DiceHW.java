@@ -74,3 +74,4 @@ public class DiceHW {
 		return count;
 	}
 }
+// Good job.  Please see if you can implement and use the toString method.
