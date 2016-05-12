@@ -4,7 +4,7 @@ public class ThreeDice {
 	public  int Throw()
 	{
 		int randomDice;
-		randomDice = (D1.Throw()+D2.Throw()+D3.Throw())/3;			
+		randomDice = (D1.Throw()+D2.Throw()+D3.Throw());			
 		return randomDice;
 	}
 	public String toString()
