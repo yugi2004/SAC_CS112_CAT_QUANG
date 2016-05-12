@@ -4,7 +4,7 @@ public class TrippleDice extends DiceW13{
 	@Override
 	public int Throw()
 	{		
-		randomNumber=super.Throw(3);
+		randomNumber=3*super.Throw();
 		return randomNumber;
 	}
 }
