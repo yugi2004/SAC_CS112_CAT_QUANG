@@ -31,3 +31,4 @@ public class DiceTestThrow {
 		while (check ==1);	
 	}
 }
+// Good job
