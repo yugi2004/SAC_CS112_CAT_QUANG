@@ -11,7 +11,7 @@ public class DiceTestThrow {
 
 		do
 		{
-			System.out.print("Press 1 to role dice: ");
+			System.out.print("Press 1 to throw dice again: ");
 			check = input.nextInt();
 			
 			try
@@ -25,7 +25,7 @@ public class DiceTestThrow {
 			}
 			catch (IllegalArgumentException illegalArgumentException)
 			{
-				System.out.println("Dice can only role 3 times");
+				System.out.println("Sorrry!Dice can only throw 3 times!! ");
 			}
 		}
 		while (check ==1);	
