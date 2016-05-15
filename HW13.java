@@ -18,3 +18,4 @@ public class HW13 {
 		}
 	}
 }
+// Good job...please create a nother TrippleDic object so that you can test the case where equals fails
