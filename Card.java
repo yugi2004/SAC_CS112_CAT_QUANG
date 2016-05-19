@@ -13,7 +13,7 @@ public class Card implements RandomNumber{
 				rankNumber=( (int)(Math.random()*13 ) + 1 );
 
 	 }
-	  public static String rankToString(int rank) {
+	  public String rankToString(int rank) {
 	        switch (rank) {
 	        case 1:
 	            return "Ace";
