@@ -7,11 +7,11 @@ public class DiceW14 implements RandomNumber{
 	{
 		Throw();
 	}
+	@Override
 		public void Throw()
 		{
 			count++;
-
-				randomNumber=( (int)(Math.random()*6 ) + 1 );
+			randomNumber=( (int)(Math.random()*6 ) + 1 );
 
 		}
 

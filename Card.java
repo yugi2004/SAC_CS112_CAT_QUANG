@@ -1,12 +1,13 @@
 
 public class Card implements RandomNumber{
 	private int rankNumber;
-	private int count;
+	private int count=0;
 	public Card()
 	{
-		CardNRank();
+		Throw();
 	}
-	 public void CardNRank()
+	@Override
+	 public void Throw()
 	 {
 		 count++;
 
@@ -48,7 +49,6 @@ public class Card implements RandomNumber{
 @Override
 	public int getRandomNumber()
 	{
-
 		return rankNumber ;
 	}
 @Override
