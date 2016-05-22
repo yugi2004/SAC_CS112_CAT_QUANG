@@ -26,3 +26,5 @@ public class HW14 {
 	}
 
 }
+
+// Good job!
