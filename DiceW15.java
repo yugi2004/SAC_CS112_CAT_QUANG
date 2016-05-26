@@ -4,7 +4,7 @@ public class DiceW15 implements Runnable{
 	private int max=0;
 	private int randomNumber;
 	public DiceW15(int max){
-		this.max=max;
+		this.max=max;// how many dice need throw
 		
 	}
 	public void Throw()
@@ -23,11 +23,11 @@ public class DiceW15 implements Runnable{
 	@Override
 	public void run()
 	{		
-		String t= Thread.currentThread().getName();
+		String threadname= Thread.currentThread().getName();
 		for (int i=1; i <= max; i++ )
 		{		
 			Throw();		
-			System.out.printf("Thread : %s dice is : %d , count is : %d %n",t,randomNumber,count);
+			System.out.printf("Thread : %s dice is : %d , count is : %d %n",threadname,randomNumber,count);
 		}
 	}
 	
